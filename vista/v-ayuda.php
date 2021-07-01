@@ -1,3 +1,6 @@
+<!--Autores: Deimi Gomez, Lizbeth Caro
+Sistema de traducción de palabras al tucano-->
+
 <!--este archivo me muestra el centro de ayuda del Traductor -->
 
 <div class="hero-unit">
