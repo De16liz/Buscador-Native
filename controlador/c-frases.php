@@ -1,3 +1,6 @@
+<!--Autores: Deimi Gomez, Lizbeth Caro
+Sistema de traducción de palabras al tucano-->
+
 <!--este archivo me une las palabras para su traduccion-->
 
 <?php
@@ -32,7 +35,7 @@ if(!empty($_POST))
       }
      
      $result = $conexion->query($sql);
-     echo "<br>Has buscado la palabra clave:<b> ". $_POST['PalabraClave']."</b>";
+     echo "<br>Has buscado la palabra:<b> ". $_POST['PalabraClave']."</b>";
                      
      if(mysqli_num_rows($result) > 0) {
         $row_count= 0;
