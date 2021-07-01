@@ -1,5 +1,5 @@
 <!--Autores: Deimi Gomez, Lizbeth Caro
-Sistema de traducción de palabras a l tucano-->
+Sistema de traducción de palabras al tucano-->
 
 <!doctype html>
 <html lang="es">
@@ -50,7 +50,7 @@ Sistema de traducción de palabras a l tucano-->
     <!-- Begin page content -->
 
 <div class="container">
- <h4 class="mt-5">Traductor de palabras en Español a Tucano</h4>
+ <h4 class="mt-5">Traductor de palabras de Español a Tucano</h4>
  <hr>
 
 <div class="row">
