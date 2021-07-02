@@ -26,7 +26,7 @@ Sistema de traducción de palabras al tucano-->
       <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <a class="navbar-brand" href="index.php">TraductorNative</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav mr-auto">
@@ -55,31 +55,34 @@ Sistema de traducción de palabras al tucano-->
 
 <div class="row">
 <div class="col-12 col-md-12">
-<!-- Contenido -->   
+  <!-- Contenido -->   
 
-<ul class="list-group">
-  <li class="list-group-item">
-<form method="post">
-  <div class="form-row align-items-center">
-    <div class="col-auto">
-      <label class="sr-only" for="inlineFormInput">Curso</label>
-      <input required name="PalabraClave" type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Ingrese palabra a traducir">  
-      <input name="buscar" type="hidden" class="form-control mb-2" id="inlineFormInput" value="v">
-    </div>
-   
-    <div class="col-auto">
-      <button type="submit" class="btn btn-primary mb-2">Buscar Ahora</button>
-    </div>
-  </div>
-</form>
-  </li>
+      <ul class="list-group">
+        <li class="list-group-item">
+          <form method="post">
+            <div class="form-row align-items-center">
+              <div class="col-auto">
+                <label class="sr-only" for="inlineFormInput">Curso</label>
+                <input required name="PalabraClave" type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Ingrese palabra a traducir">  
+                <input name="buscar" type="hidden" class="form-control mb-2" id="inlineFormInput" value="v">
+              </div>
+            
+              <div class="col-auto">
+                <button type="submit" class="btn btn-primary mb-2">Traducir</button>
+              </div>
+            </div>
+          </form>
+        </li>
 
-</ul>
+      </ul>
 
 
-<?php include("controlador/c-frases.php");?>
+        <?php 
+        //me incluye el controlador encargado de mostrarme la combinación de las palabras relacionadas en la BD
+        include("controlador/c-frases.php");
+        ?>
 
-<!-- Fin Contenido --> 
+  <!-- Fin Contenido --> 
 </div>
 </div><!-- Fin row -->
 </div><!-- Fin container -->
