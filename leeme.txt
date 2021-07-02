@@ -1,6 +1,7 @@
 
 //Autores: Lizbeth johana caro Suarez
 	   Deimi Liceth Gomez
+	   Daniela Avellaneda
 
 
 1. En la carpeta de "bd" está la base de datos, exporte al localhost.
@@ -16,6 +17,7 @@
 	-El inicio donde usted puede ingresar la palabra que desea traducir.
 	
 	-La lista de palabras, en ese encontrará en un PDF de todas las palabras que tiene el traductor ingresadas hasta el momento.
+	(en la carpeta PDF hay un archivo comprimido, tiene que descomprimirlo para que funcione)
 	
 	-La información del traductor.
 
