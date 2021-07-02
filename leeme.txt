@@ -1,0 +1,26 @@
+
+//Autores: Lizbeth johana caro Suarez
+	   Deimi Liceth Gomez
+
+
+1. En la carpeta de "bd" está la base de datos, exporte al localhost.
+
+2. El nombre de la base de datos debería ser "traductor3_3", de lo contrario, si tiene otro nombre, este no funcionara
+   a la hora de ejecutar el llamado en PHP.
+
+3. Este es el link que se debe ingresar en el buscador (google chrome, firefox, opera): http://localhost/Buscador-Native/
+
+4. Al abrir  el link, este muestra el traductor diseñado, con su respectivo menú.
+
+5. En el menú se encuentra el nombre de traductor
+	-El inicio donde usted puede ingresar la palabra que desea traducir.
+	
+	-La lista de palabras, en ese encontrará en un PDF de todas las palabras que tiene el traductor ingresadas hasta el momento.
+	
+	-La información del traductor.
+
+	-La ayuda del traductor, en caso de que no entienda cómo funciona.
+
+7. En el inicio encontrará una casilla donde podrá ingresar las palabras que desea traducir.
+
+8. En la parte de abajo encontrará la palabra traducida.
