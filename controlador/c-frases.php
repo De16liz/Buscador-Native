@@ -22,7 +22,7 @@ if(!empty($_POST))
               SELECT t2.palabra_1 FROM tb_palabras t1
               INNER JOIN tb_traduccion t2 ON t2.palabra_2 = t1.id_palabra
               WHERE palabra like '%" . $aKeyword[0] . "%' OR palabra like '%" . $aKeyword[0] . "%'
-              /*t1.palabra = palabra like '%" . $aKeyword[0] . "%' OR t2.palabra_1 = t1-id_palabra like '%" . $aKeyword[0] . "%'*/
+              /*t1.palabra = palabra like '%" . $aKeyword[0] . "%' OR t2.palabra_1 = t1id_palabra like '%" . $aKeyword[0] . "%'*/
           )
         )";
 
@@ -33,6 +33,8 @@ if(!empty($_POST))
             $sql .= " OR palabra like '%" . $aKeyword[$i] . "%'";
         }
       }
+      /*foreach ($aKeyword as $aKeyword) {
+        $query .= "palabra LIKE '%" . $aKeyword . "%' AND ";*/
      
      $result = $conexion->query($sql);
      echo "<br>Has buscado la palabra:<b> ". $_POST['PalabraClave']."</b>";
