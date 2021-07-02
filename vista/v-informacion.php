@@ -2,12 +2,9 @@
 Sistema de traducción de palabras al tucano-->
 <!-- este archivo me muestra la informacion del traductor. -->
 
-<div class="text-center">
-    <div class="row">
-    <div class="col-12 col-md-12">
 
     <div class="hero-unit" >
-        <h1>Guia del traductor Native</h1>
+        <h1>Traductor Native</h1>
         <p>EL traductor se realizo con el fin de conservar el idioma Tucano.</p>
         
     </div>

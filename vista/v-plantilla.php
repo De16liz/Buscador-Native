@@ -24,9 +24,9 @@ Sistema de traducción de palabras a l tucano-->
     <body>
 
     <header>
-      <!-- Fixed navbar -->
+      <!-- menu -->
       <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="index.php">TraductorNative</a>
+        <a class="navbar-brand" href="http://localhost/buscadorNAtive/index.php">TraductorNative</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -34,17 +34,11 @@ Sistema de traducción de palabras a l tucano-->
           <ul class="navbar-nav mr-auto">
            
             <li class="nav-item active">
-              <a class="nav-link" href="index.php">Inicio <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="http://localhost/buscadorNAtive/index.php">Inicio <span class="sr-only">(current)</span></a>
             </li>  
-            <a class="btn" href="pdf/otro-ejemplo.php">Lista de palabras</a> <!--me muestra el contenido del traductor en PDF (una lista) -->                    
+                                         
           </ul>
-          <form class="form-inline mt-2 mt-md-0" action="controlador/c-informacion.php">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Informacion</button>
-          </form>
-
-          <form class="form-inline mt-2 mt-md-0" action="controlador/c-ayuda.php">
-          <button  class="btn btn-outline-success my-2 my-sm-0" type="submit">ayuda</button>
-          </form>
+          
         </div>
       </nav>
     </header>
